@@ -1,0 +1,281 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bg">
+    <h1>Helloooooo world</h1>
+
+</body>
+</html> -->
+
+<!-- <button style="color: black;background-color: green;" id="btn">Themes</button> -->
+<!-- <a href="www.google.com">Google</a> -->
+
+<!-- <script> -->
+
+<!-- //    document.getElementById("btn").addEventListener("click", function () {
+
+//     if (this.style.backgroundColor === "black") {
+//         this.style.backgroundColor = "white";
+//         this.style.color = "black";
+
+//         document.getElementById("bg").style.backgroundColor = "white";
+//         document.getElementById("bg").style.color = "black";
+//     } else {
+//         this.style.backgroundColor = "black";
+//         this.style.color = "white";
+
+//         document.getElementById("bg").style.backgroundColor = "black";
+//         document.getElementById("bg").style.color = "white";
+//     }
+
+// }); -->
+
+
+<!-- </script> -->
+
+
+
+
+<!-- //getElementByTagName -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Name Example</title>
+</head>
+<body>
+
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+
+    <button onclick="changeColor()">
+        Change Color
+    </button>
+
+    <script>
+        function changeColor() {
+            let paragraphs = document.getElementsByTagName("p");
+
+            for(let i = 0; i < paragraphs.length; i++) {
+                paragraphs[i].style.color = "red";
+            }
+        }
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+<!-- //querySelector
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enter your name</h2>
+    <input type="text" placeholder="Enter your name" class="name">
+    <button onclick="showName()">Submit</button>
+    <p id="result"></p>
+    <script>
+        function showName(){
+            let inputElement=document.querySelector(".name");
+            let resultElement=document.querySelector('#result');
+
+            resultElement.innerHTML='Helloooo, '+inputElement.value;
+        }
+    </script>
+</body>
+</html> -->
+
+<!-- //querySelectorAll
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+
+<button onclick="changeColor()">Change Color</button>
+
+<script>
+function changeColor() {
+    let paragraphs = document.querySelectorAll("p");
+
+    paragraphs.forEach(function(para) {
+        para.style.color = "red";
+    });
+}
+</script>
+
+</body>
+</html> -->
+
+
+<!-- //get element by id---inner.html -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Welcome</h1>
+    <button onclick="changeText()">Click Me</button>
+    <script>
+        function changeText(){
+            document.getElementById('title').innerHTML="Hello DORA";
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- get Element By id - innerText
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragraph" onclick="changingParagraph()">This is the paragraph</p>
+    <script>
+        function changingParagraph(){
+            document.getElementById('paragraph').innerText="This is the sample paragraph text1"
+        }
+    </script>
+</body>
+</html> -->
+<!-- 
+
+//getAttribute
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="username" placeholder="Enter Name">
+    <script>
+        let input = document.getElementById("username");
+
+        console.log(input.getAttribute("placeholder"));
+    </script>
+</body>
+</html> -->
+<!-- 
+
+set setAttribute
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="username">
+<button onclick="changePlaceholder()">Click</button>
+    <script>
+        let input = document.getElementById("username");
+
+         input.setAttribute("placeholder", "Enter Your Full Name");
+    </script>
+</body>
+</html> -->
+
+
+<!-- removeAttribute
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="text" id="username" placeholder="Enter Name">
+<button onclick="removePlaceHolder()">Remove</button>
+    <script>
+        function removePlaceHolder() {
+        let input = document.getElementById("username");
+
+        input.removeAttribute("placeholder");
+}
+    </script>
+</body>
+</html> -->
+
+
+<!-- //Create a paragraph
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="addParagraph()">Add paragraph</button>
+    <script>
+        function addParagraph(){
+            let para=document.createElement('p');
+            para.textContent="This paragraph was created using javascript";
+        }
+    </script>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<ul id="students">
+    <li id="student">Dora</li>
+</ul>
+
+<button onclick="deleteStudent()">Delete Student</button>
+
+<script>
+function deleteStudent() {
+    let parent = document.getElementById("students");
+    let child = document.getElementById("student");
+
+    parent.removeChild(child);
+}
+</script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+   

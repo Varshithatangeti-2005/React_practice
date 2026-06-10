@@ -1,0 +1,4 @@
+GitHub: Repository Management, Commands, Commits, Push & Pull Requests. Python: File Handling, Exception Handling, OOPS Concepts, Regular Expressions. FastAPI: Web Application Basics, HTTP Methods. Soft Skills: Email Writing, Presentation Skills, Note Making, Telephone Etiquette & Active Listening.
+
+
+Secured 8/10 in the Soft Skills Initial Assessment. Achieved an Above Average Grade in the Python Initial Evaluation.  Developed a Bank Management System using Object Oriented Programming in Python.  Practiced integrating and pushing Python projects to GitHub.
