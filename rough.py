@@ -40,7 +40,6 @@ def get_info(
 
     headers = CommonHeaders(
         token=token,
-        device=device
     )
 
     return headers
